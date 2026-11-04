@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "airsense_lib") (type "KiCad") (uri "${KIPRJMOD}/airsense_converted.pretty") (options "") (descr "Converted from Altium PcbLib"))
+)

@@ -1,0 +1,397 @@
+** Drc report for AIR_SENSE.kicad_pcb **
+** Created on 2026-11-04T20:33:05 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 108 DRC violations **
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)
+    Rule: board setup constraints; error
+    @(199.0011 mm, 131.5036 mm): PTH pad 1 [<no net>] of H1
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)
+    Rule: board setup constraints; error
+    @(198.8011 mm, 78.0036 mm): PTH pad 1 [<no net>] of H2
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)
+    Rule: board setup constraints; error
+    @(98.0011 mm, 131.5036 mm): PTH pad 1 [<no net>] of H3
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)
+    Rule: board setup constraints; error
+    @(114.5011 mm, 78.0036 mm): PTH pad 1 [<no net>] of H4
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.5811 mm, 80.5036 mm): Track [GND] on Bottom, length 1.4200 mm
+    @(136.5811 mm, 80.5036 mm): NPTH pad of R1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(187.5811 mm, 78.0036 mm): Track [VCC5V0] on Bottom, length 4.2426 mm
+    @(190.5811 mm, 81.0036 mm): NPTH pad of R6
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(190.5811 mm, 84.5036 mm): Track [VCC5V0] on Bottom, length 3.5000 mm
+    @(190.5811 mm, 84.5036 mm): NPTH pad of R5
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(190.5811 mm, 88.0036 mm): Track [VCC5V0] on Bottom, length 3.5000 mm
+    @(190.5811 mm, 88.0036 mm): NPTH pad of R4
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(124.6511 mm, 78.7336 mm): Track [NetLED1_K] on Bottom, length 2.5032 mm
+    @(126.4211 mm, 80.5036 mm): NPTH pad of R1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(185.0011 mm, 123.5036 mm): Track [I2C_SCL] on Bottom, length 2.5800 mm
+    @(185.0011 mm, 120.4236 mm): NPTH pad of R2
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(181.5011 mm, 123.5036 mm): Track [I2C_SDA] on Bottom, length 2.5800 mm
+    @(181.5011 mm, 120.4236 mm): NPTH pad of R3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2460 mm)
+    Rule: board setup constraints hole; error
+    @(177.5311 mm, 82.8936 mm): Track [NO2_VALUE] on Bottom, length 2.6729 mm
+    @(180.4211 mm, 81.0036 mm): NPTH pad of R6
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2460 mm)
+    Rule: board setup constraints hole; error
+    @(176.3011 mm, 88.0036 mm): Track [CO_VALUE] on Bottom, length 3.1200 mm
+    @(180.4211 mm, 88.0036 mm): NPTH pad of R4
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(185.0011 mm, 130.5836 mm): Track [VCC3V3] on Bottom, length 0.8202 mm
+    @(185.0011 mm, 130.5836 mm): NPTH pad of R2
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(180.6111 mm, 131.4736 mm): Track [VCC3V3] on Bottom, length 1.2586 mm
+    @(181.5011 mm, 130.5836 mm): NPTH pad of R3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2460 mm)
+    Rule: board setup constraints hole; error
+    @(178.4911 mm, 85.4336 mm): Track [NH3_VALUE] on Bottom, length 1.3152 mm
+    @(180.4211 mm, 84.5036 mm): NPTH pad of R5
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(181.5011 mm, 131.0836 mm): Track [VCC3V3] on Bottom, length 3.5000 mm
+    @(181.5011 mm, 130.5836 mm): NPTH pad of R3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0662 mm)
+    Rule: board setup constraints hole; error
+    @(185.5811 mm, 130.0036 mm): Track [VCC3V3] on Bottom, length 3.9200 mm
+    @(185.0011 mm, 130.5836 mm): NPTH pad of R2
+[clearance]: Clearance violation (zone clearance 0.5080 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.5811 mm, 80.5036 mm): NPTH pad of R1
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.5811 mm, 80.5036 mm): NPTH pad of R1
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(180.4211 mm, 88.0036 mm): NPTH pad of R4
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(190.5811 mm, 88.0036 mm): NPTH pad of R4
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(136.5811 mm, 80.5036 mm): NPTH pad of R1
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(126.4211 mm, 80.5036 mm): NPTH pad of R1
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(185.0011 mm, 120.4236 mm): NPTH pad of R2
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(185.0011 mm, 130.5836 mm): NPTH pad of R2
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(181.5011 mm, 120.4236 mm): NPTH pad of R3
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(181.5011 mm, 130.5836 mm): NPTH pad of R3
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(180.4211 mm, 84.5036 mm): NPTH pad of R5
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(190.5811 mm, 84.5036 mm): NPTH pad of R5
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(180.4211 mm, 81.0036 mm): NPTH pad of R6
+[padstack_invalid]: Padstack is not valid (Pad must have a positive size)
+    Local override; error
+    @(190.5811 mm, 81.0036 mm): NPTH pad of R6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(136.5811 mm, 80.5036 mm): Track [GND] on Bottom, length 1.4200 mm
+    @(136.5811 mm, 80.5036 mm): NPTH pad of R1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(136.5011 mm, 79.0036 mm): Track [GND] on Bottom, length 0.1131 mm
+    @(136.5811 mm, 80.5036 mm): NPTH pad of R1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(136.5011 mm, 79.0036 mm): Track [GND] on Bottom, length 3.1820 mm
+    @(136.5811 mm, 80.5036 mm): NPTH pad of R1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(124.6511 mm, 78.7336 mm): Track [NetLED1_K] on Bottom, length 2.5032 mm
+    @(126.4211 mm, 80.5036 mm): NPTH pad of R1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(181.5011 mm, 131.0836 mm): Track [VCC3V3] on Bottom, length 3.5000 mm
+    @(185.0011 mm, 130.5836 mm): NPTH pad of R2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(181.5011 mm, 123.5036 mm): Track [I2C_SDA] on Bottom, length 2.5800 mm
+    @(181.5011 mm, 120.4236 mm): NPTH pad of R3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(181.5011 mm, 131.0836 mm): Track [VCC3V3] on Bottom, length 3.5000 mm
+    @(181.5011 mm, 130.5836 mm): NPTH pad of R3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(177.5311 mm, 82.8936 mm): Track [NO2_VALUE] on Bottom, length 2.6729 mm
+    @(180.4211 mm, 81.0036 mm): NPTH pad of R6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(178.4911 mm, 85.4336 mm): Track [NH3_VALUE] on Bottom, length 1.3152 mm
+    @(180.4211 mm, 84.5036 mm): NPTH pad of R5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(187.5811 mm, 78.0036 mm): Track [VCC5V0] on Bottom, length 4.2426 mm
+    @(190.5811 mm, 81.0036 mm): NPTH pad of R6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(136.5811 mm, 80.5036 mm): NPTH pad of R1
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(185.0011 mm, 123.5036 mm): Track [I2C_SCL] on Bottom, length 2.5800 mm
+    @(185.0011 mm, 120.4236 mm): NPTH pad of R2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.2711 mm, 131.4736 mm): Track [VCC3V3] on Bottom, length 4.3400 mm
+    @(181.5011 mm, 130.5836 mm): NPTH pad of R3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(190.5811 mm, 84.5036 mm): Track [VCC5V0] on Bottom, length 3.5000 mm
+    @(190.5811 mm, 84.5036 mm): NPTH pad of R5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(176.3011 mm, 88.0036 mm): Track [CO_VALUE] on Bottom, length 3.1200 mm
+    @(180.4211 mm, 88.0036 mm): NPTH pad of R4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(190.5811 mm, 84.5036 mm): Track [VCC5V0] on Bottom, length 3.5000 mm
+    @(190.5811 mm, 81.0036 mm): NPTH pad of R6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(190.5811 mm, 88.0036 mm): Track [VCC5V0] on Bottom, length 3.5000 mm
+    @(190.5811 mm, 88.0036 mm): NPTH pad of R4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(185.5811 mm, 130.0036 mm): Track [VCC3V3] on Bottom, length 3.9200 mm
+    @(185.0011 mm, 130.5836 mm): NPTH pad of R2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(190.5811 mm, 88.0036 mm): Track [VCC5V0] on Bottom, length 3.5000 mm
+    @(190.5811 mm, 84.5036 mm): NPTH pad of R5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(185.0011 mm, 130.5836 mm): Track [VCC3V3] on Bottom, length 0.8202 mm
+    @(185.0011 mm, 130.5836 mm): NPTH pad of R2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(180.6111 mm, 131.4736 mm): Track [VCC3V3] on Bottom, length 1.2586 mm
+    @(181.5011 mm, 130.5836 mm): NPTH pad of R3
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(190.5811 mm, 88.0036 mm): Track [VCC5V0] on Bottom, length 3.5000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(124.6511 mm, 78.7336 mm): Track [NetLED1_K] on Bottom, length 2.5032 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(185.0011 mm, 123.5036 mm): Track [I2C_SCL] on Bottom, length 2.5800 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(181.5011 mm, 123.5036 mm): Track [I2C_SDA] on Bottom, length 2.5800 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(177.5311 mm, 82.8936 mm): Track [NO2_VALUE] on Bottom, length 2.6729 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(178.4911 mm, 85.4336 mm): Track [NH3_VALUE] on Bottom, length 1.3152 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(176.3011 mm, 88.0036 mm): Track [CO_VALUE] on Bottom, length 3.1200 mm
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(94.5011 mm, 75.0036 mm): Zone [GND] on Bottom, priority 0
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(202.5011 mm, 75.0036 mm): Segment on Edge.Cuts
+    @(94.8011 mm, 75.0036 mm): Segment of J7 on Top Overlay
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(202.5011 mm, 75.0036 mm): Segment on Edge.Cuts
+    @(94.8011 mm, 84.0036 mm): Segment of J7 on Top Overlay
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(202.5011 mm, 75.0036 mm): Segment on Edge.Cuts
+    @(109.2011 mm, 77.9536 mm): Segment of J7 on Top Overlay
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(180.4211 mm, 88.0036 mm): NPTH pad of R4
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(190.5811 mm, 88.0036 mm): NPTH pad of R4
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(136.5811 mm, 80.5036 mm): NPTH pad of R1
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(126.4211 mm, 80.5036 mm): NPTH pad of R1
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(185.0011 mm, 120.4236 mm): NPTH pad of R2
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(185.0011 mm, 130.5836 mm): NPTH pad of R2
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(199.0011 mm, 131.5036 mm): PTH pad 1 [<no net>] of H1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(198.8011 mm, 78.0036 mm): PTH pad 1 [<no net>] of H2
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(98.0011 mm, 131.5036 mm): PTH pad 1 [<no net>] of H3
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(181.5011 mm, 120.4236 mm): NPTH pad of R3
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(181.5011 mm, 130.5836 mm): NPTH pad of R3
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(180.4211 mm, 84.5036 mm): NPTH pad of R5
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(190.5811 mm, 84.5036 mm): NPTH pad of R5
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(114.5011 mm, 78.0036 mm): PTH pad 1 [<no net>] of H4
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(180.4211 mm, 81.0036 mm): NPTH pad of R6
+[padstack]: Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)
+    Local override; warning
+    @(190.5811 mm, 81.0036 mm): NPTH pad of R6
+[lib_footprint_issues]: Footprint '' not found in library 'airsense_lib'
+    Local override; warning
+    @(199.0011 mm, 131.5036 mm): Footprint H1
+[lib_footprint_issues]: Footprint '' not found in library 'airsense_lib'
+    Local override; warning
+    @(198.8011 mm, 78.0036 mm): Footprint H2
+[lib_footprint_mismatch]: Footprint 'CUI_PJ-102BH' does not match copy in library 'airsense_lib'
+    Local override; warning
+    @(102.0011 mm, 79.5036 mm): Footprint J7
+[lib_footprint_issues]: Footprint '' not found in library 'airsense_lib'
+    Local override; warning
+    @(98.0011 mm, 131.5036 mm): Footprint H3
+[lib_footprint_issues]: Footprint '' not found in library 'airsense_lib'
+    Local override; warning
+    @(114.5011 mm, 78.0036 mm): Footprint H4
+[lib_footprint_mismatch]: Footprint 'SOIC127P600X175-8AN' does not match copy in library 'airsense_lib'
+    Local override; warning
+    @(170.5011 mm, 126.0036 mm): Footprint U1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(94.7511 mm, 128.5036 mm): Segment of J2 on Top Overlay
+    @(106.0011 mm, 128.2447 mm): PCB text box 'Sensor
+Atmos' on Top Overlay
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(131.5011 mm, 128.2447 mm): PCB text box 'V1I1' on Top Overlay
+    @(94.7511 mm, 128.5036 mm): Segment of J2 on Top Overlay
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(198.2511 mm, 116.0036 mm): Segment of J5 on Top Overlay
+    @(201.2600 mm, 101.0036 mm): PCB text box 'SIM800L' on Top Overlay
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(137.5011 mm, 128.5036 mm): Segment of J2 on Top Overlay
+    @(131.5011 mm, 128.2447 mm): PCB text box 'V1I1' on Top Overlay
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(198.8011 mm, 78.0036 mm): Circle on Top Overlay
+    @(197.2600 mm, 78.5036 mm): PCB text box 'MICS6814' on Top Overlay
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(98.0011 mm, 131.5036 mm): Reference field of H3
+    @(98.0011 mm, 131.5036 mm): PTH pad 1 [<no net>] of H3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(199.0011 mm, 131.5036 mm): Reference field of H1
+    @(199.0011 mm, 131.5036 mm): PTH pad 1 [<no net>] of H1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.5011 mm, 90.5036 mm): Segment on Top Overlay
+    @(171.5011 mm, 90.5036 mm): Via [GND] on Top - Bottom
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.5011 mm, 90.5036 mm): Segment on Top Overlay
+    @(171.0011 mm, 86.0036 mm): Via [GND] on Top - Bottom
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(173.0011 mm, 101.5036 mm): Segment on Top Overlay
+    @(173.0011 mm, 95.0036 mm): Via [I2C_SDA] on Top - Bottom
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.0011 mm, 131.5036 mm): Segment of J1 on Top Overlay
+    @(168.0011 mm, 130.5036 mm): Via [VCC3V3] on Top - Bottom
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.0011 mm, 131.5036 mm): Segment of J1 on Top Overlay
+    @(168.0011 mm, 130.5036 mm): Via [VCC3V3] on Top - Bottom
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(198.8011 mm, 78.0036 mm): Reference field of H2
+    @(198.8011 mm, 78.0036 mm): PTH pad 1 [<no net>] of H2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.5011 mm, 78.0036 mm): Reference field of H4
+    @(114.5011 mm, 78.0036 mm): PTH pad 1 [<no net>] of H4
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
