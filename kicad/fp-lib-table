@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "airsense_lib") (type "Altium Designer") (uri "${KIPRJMOD}/airsense_lib.PcbLib") (options "") (descr ""))
+)
